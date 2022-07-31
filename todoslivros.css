@@ -102,16 +102,6 @@ a{
 }
 /*Fim Barra-Navegação*/
 
-.secao-livros .titulo-destaques, .secao-livros .titulo-novidades{
-    margin-top: 50px;
-    background: #31A9EC;
-    border-top: 1px solid black;
-    width: 100%;
-}
-
-.secao-livros .titulo-destaques h3, .secao-livros .titulo-novidades h3{
-    margin-left: 10px;
-}
 
 .secao-livros .imagens-destaques, .imagens-destaques1{
     margin-top: 30px;
@@ -261,10 +251,6 @@ a{
         margin: 10px;
     }
 }
-
-
-
-
 
 
 

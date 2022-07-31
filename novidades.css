@@ -102,35 +102,6 @@ a{
 }
 /*Fim Barra-Navegação*/
 
-.secao-livros .titulo-destaques, .secao-livros .titulo-novidades{
-    margin-top: 50px;
-    background: #31A9EC;
-    border-top: 1px solid black;
-    width: 100%;
-}
-
-.secao-livros .titulo-destaques h3, .secao-livros .titulo-novidades h3{
-    margin-left: 10px;
-}
-
-.secao-livros .imagens-destaques, .imagens-destaques1{
-    margin-top: 30px;
-    display: flex;
-    align-items: center;
-    text-align: center;   
-    margin-left: 10px;
-}
-
-.secao-livros .imagens-destaques img, .imagens-destaques1 img{
-    width: 200px;
-    margin: 0px 30px 10px 30px;
-    align-items: center;
-    justify-items: center;
-}
-
-.secao-livros .imagens-destaques p{
-    margin-right: 5px;
-}
 
 .secao-livros .imagens-destaques .imagem a button, .secao-livros .imagens-destaques1 .imagem a button,
 .secao-livros .imagens-novidades .imagem a button{
@@ -148,27 +119,6 @@ a{
 .secao-livros .imagens-destaques .imagem a button:hover, .secao-livros .imagens-destaques1 .imagem a button:hover,
 .secao-livros .imagens-novidades .imagem a button:hover{
     background-color: rgb(241, 128, 22);
-}
-
-.ver-mais{
-    text-align: center;
-}
-
-.ver-mais a button{
-    width: 10%;
-    color: #fff;
-    background-color: rgb(241, 128, 22);
-    padding: 5px;
-    font-size: 18px;
-    cursor: pointer;
-    margin-top: 30px;
-    transition: 0.5s;
-    border-radius: 100px;
-    border: 1px solid #111;
-}
-
-.ver-mais a button:hover{
-    background-color: rgb(173, 99, 15);
 }
 
 
@@ -254,17 +204,7 @@ a{
     .secao-livros .imagens-destaques, .secao-livros .imagens-destaques1, .secao-livros .imagens-novidades{
         flex-direction: column;
     }
-    .secao-livros .ver-mais a button{
-        width: 100px;
-    }
-    .secao-livros .imagem a button{
-        margin: 10px;
-    }
 }
-
-
-
-
 
 
 

@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    max-width: 1500px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/*Barra-Navegação*/
+
+.navbar{
+    background-color: #FF7200;
+
+    padding: 7px;
+}
+
+
+
+.navbar .principal {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .principal .logo a{
+    margin-right: 30px; 
+    color: #111;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;  
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid white;
+    background-color: #fff;
+    padding: 4px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.navbar .principal .logo img{
+    width: 50px;
+    margin-right: 10px;
+}
+
+.principal .pesquisa i{
+    height: 1px;
+    position: absolute;
+    right: 11%;
+    top: 4%;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+.principal .pesquisa a i:hover{
+    color: rgb(241, 128, 22);
+}
+
+.principal .pesquisa input{
+    display: flex;
+    position: absolute;
+    right: 10%;
+    top: 3%;
+    padding: 10px;
+    height: 5px;
+    width: 200px;
+    background: #111;
+    border-radius: 30px;
+    color: #fff;
+}
+
+.navbar .principal .menu ul{
+    display: flex;
+    align-content: space-between;
+    margin-right: 200px;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.navbar .principal .menu ul li{
+    margin: 0px 30px 0px 10px;
+    list-style: none;   
+}
+
+.navbar .principal .menu ul li a{
+    color: #fff;
+    transition: 0.3s;
+}
+
+.navbar .principal .menu ul li a:hover{
+    color: #ccc;
+    text-decoration: underline;
+}
+/*Fim Barra-Navegação*/
+
+.contato{
+    margin: 50px 10px 10px 20px;
+    text-align: center;
+    height: 474px;
+}
+
+.contato .titulo-contato{
+    margin: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+
+@media screen and (max-width: 600px){
+    .navbar{
+        width: 100%;
+    }
+    .navbar .principal .logo, .navbar .principal .logo a{
+        width: 120px;
+        font-size: 14px;
+    }
+    .navbar .principal .logo a img{
+        width: 50px;
+    }
+    .principal .pesquisa input{
+        right: 2%;
+        width: 50px;
+        font-size: 10px;
+    }
+    .navbar .principal .menu ul{
+        font-size: 10px;
+        width: 100px;
+    }
+    .navbar .principal .menu ul li{
+        margin: 8px;
+    }
+    .principal .pesquisa i{
+        right: 3%;
+    }
+}
+
+
+footer{
+    margin-top: 15px;
+    width: 100%;
+    background: #ccc;
+    text-align: center;
+    
+}
