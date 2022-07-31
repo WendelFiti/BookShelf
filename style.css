@@ -209,13 +209,17 @@ a{
     .navbar{
         width: 100%;
     }
+    .navbar .principal .logo, .navbar .principal .logo a{
+        width: 120px;
+        font-size: 14px;
+    }
+    .navbar .principal .logo a img{
+        width: 50px;
+    }
     .principal .pesquisa input{
         right: 2%;
         width: 50px;
         font-size: 10px;
-    }
-    .navbar .principal .menu{
-
     }
     .navbar .principal .menu ul{
         font-size: 10px;
