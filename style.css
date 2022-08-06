@@ -8,7 +8,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    max-width: 1500px;
+
 }
 
 a{
@@ -55,7 +55,7 @@ a{
 .principal .pesquisa i{
     height: 1px;
     position: absolute;
-    right: 11%;
+    right: 2%;
     top: 4%;
     color: rgb(255, 255, 255);
     transition: 0.5s;
@@ -68,7 +68,7 @@ a{
 .principal .pesquisa input{
     display: flex;
     position: absolute;
-    right: 10%;
+    right: 1%;
     top: 3%;
     padding: 10px;
     height: 5px;
@@ -188,26 +188,26 @@ a{
 }
 
 @media screen and (max-width: 768px) {
-    .navbar{
-        width: 100%;
-    }
-    .secao-livros .titulo-destaques{
-        width: 100%;
-    }
+
+
     .principal .pesquisa input{
         right: 2%;
         width: 100px;
         font-size: 10px;
     }
+    .navbar .principal .menu{
+        margin-left: 10px;
+    }
     .navbar .principal .menu ul{
         font-size: 15px;
     }
     .navbar .principal .logo a{
-        font-size: 15px;
+        font-size: 13px;
     }
-    .navbar .principal .logo{
-        width: 62px;
+    .navbar .principal .logo {
+        width: 85px;
     }
+    
     .secao-livros .imagens-destaques, .secao-livros .imagens-destaques1, .secao-livros .imagens-novidades{
         flex-direction: column;
     }
@@ -222,7 +222,7 @@ a{
     }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 630px){
     .navbar{
         width: 100%;
     }
@@ -259,6 +259,20 @@ a{
     }
     .secao-livros .imagem a button{
         margin: 10px;
+    }
+}
+@media screen and (max-width: 1300px){
+    .secao-livros .imagens-destaques img, .imagens-destaques1 img{
+        width: 100px;
+        margin: 0px 30px 10px 30px;
+        align-items: center;
+        justify-items: center;
+    }
+    .secao-livros .imagens-novidades img{
+        width: 100px;
+        margin: 0px 30px 30px 30px;
+        align-items: center;
+        justify-items: center;
     }
 }
 
