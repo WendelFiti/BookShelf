@@ -177,6 +177,44 @@ a{
     justify-items: center;
 }
 
+@media screen and (max-width: 1300px){
+    .secao-livros .imagens-destaques img, .imagens-destaques1 img{
+        width: 100px;
+        margin: 0px 30px 10px 30px;
+        align-items: center;
+        justify-items: center;
+    }
+    .secao-livros .imagens-novidades img{
+        width: 100px;
+        margin: 0px 30px 30px 30px;
+        align-items: center;
+        justify-items: center;
+    }
+    .principal .pesquisa input{
+        width: 150px;
+        font-size: 10px;
+        top: 2%;
+    }
+    .principal .pesquisa i{
+        right: 11%;
+        top: 2.5%;
+    }
+}
+
+@media screen and (max-width: 1150px){
+    .principal .pesquisa input{
+        width: 100px;
+        font-size: 10px;
+        top: 2%;
+    }
+    .principal .pesquisa i{
+        right: 11%;
+        top: 2.5%;
+    }
+}
+
+
+
 @media screen and (max-width: 768px) {
     .navbar{
         width: 100%;
@@ -251,6 +289,7 @@ a{
         margin: 10px;
     }
 }
+
 
 
 

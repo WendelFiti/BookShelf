@@ -137,6 +137,21 @@ a{
     justify-items: center;
 }
 
+@media screen and (max-width: 1300px){
+    .secao-livros .imagens-destaques img, .imagens-destaques1 img{
+        width: 100px;
+        margin: 0px 30px 10px 30px;
+        align-items: center;
+        justify-items: center;
+    }
+    .secao-livros .imagens-novidades img{
+        width: 100px;
+        margin: 0px 30px 30px 30px;
+        align-items: center;
+        justify-items: center;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .navbar{
         width: 100%;

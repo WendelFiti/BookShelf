@@ -17,7 +17,6 @@ a{
 
 
 /*Barra-Navegação*/
-
 .navbar{
     background-color: #FF7200;
 
@@ -102,6 +101,8 @@ a{
 }
 /*Fim Barra-Navegação*/
 
+
+/*Destaques & Novidades*/
 .secao-livros .titulo-destaques, .secao-livros .titulo-novidades{
     margin-top: 50px;
     background: #31A9EC;
@@ -171,7 +172,6 @@ a{
     background-color: rgb(173, 99, 15);
 }
 
-
 .secao-livros .imagens-novidades{
     margin-top: 30px;
     display: flex;
@@ -186,7 +186,10 @@ a{
     align-items: center;
     justify-items: center;
 }
+/*Fim Destaques & Novidades*/
 
+
+/*Responsividade*/
 @media screen and (max-width: 768px) {
 
 
@@ -222,28 +225,36 @@ a{
     }
 }
 
-@media screen and (max-width: 630px){
-    .navbar{
-        width: 100%;
+@media screen and (max-width: 872px){
+    .navbar .principal .menu ul{
+
     }
-    .secao-livros .titulo-destaques{
-        width: 100%;
+    .navbar .principal .menu ul li{
+        font-size: 15px;
     }
-    .navbar .principal .logo, .navbar .principal .logo a{
-        width: 120px;
-        font-size: 14px;
+}
+
+@media screen and (max-width: 615px){
+    .navbar .principal .menu ul{
+        width: 250px;
     }
-    .navbar .principal .logo a img{
-        width: 50px;
+}
+
+@media screen and (max-width: 570px){
+    .navbar .principal .menu ul{
+        width: 200px;
     }
+}
+
+@media screen and (max-width: 681px){
+
     .principal .pesquisa input{
         right: 2%;
         width: 50px;
         font-size: 10px;
     }
     .navbar .principal .menu ul{
-        font-size: 10px;
-        width: 100px;
+        margin-left: 20px;
     }
     .navbar .principal .menu ul li{
         margin: 8px;
@@ -275,12 +286,7 @@ a{
         justify-items: center;
     }
 }
-
-
-
-
-
-
+/*Fim Responsividade*/
 
 
 footer{
