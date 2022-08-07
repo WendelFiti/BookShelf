@@ -313,6 +313,27 @@ a{
         right: 3%;
     }
 
+@media screen and (max-width: 418px){
+    .navbar .principal .logo{
+        width: 1px;
+    }
+    .navbar .principal .menu ul li{
+        font-size: 10px;
+    }
+    .navbar .principal .menu ul{
+        margin-left: 100px;
+    }
+}
+@media screen and (max-width: 350px){
+    .navbar .principal .logo{
+        width: 10px;
+    }
+    .navbar .principal .menu ul li{
+        font-size: 10px;
+    }
+    .navbar .principal .menu ul{
+        margin-left: 100px;
+    }
 }
 
 /*Fim Responsividade*/
