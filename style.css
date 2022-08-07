@@ -286,6 +286,35 @@ a{
         justify-items: center;
     }
 }
+@media screen and (max-width: 600px){
+    .secao-livros .titulo-destaques{
+        width: 100%;
+    }
+    .navbar .principal .logo, .navbar .principal .logo a{
+        width: 100px;
+        font-size: 14px;
+    }
+    .navbar .principal .logo a img{
+        width: 50px;
+    }
+    .principal .pesquisa input{
+        right: 2%;
+        width: 50px;
+        font-size: 10px;
+    }
+    .navbar .principal .menu ul{
+        font-size: 10px;
+        width: 100px;
+    }
+    .navbar .principal .menu ul li{
+        margin: 8px;
+    }
+    .principal .pesquisa i{
+        right: 3%;
+    }
+
+}
+
 /*Fim Responsividade*/
 
 
