@@ -177,6 +177,24 @@ a{
     justify-items: center;
 }
 
+
+@media screen and (max-width: 1383px) and (max-height:1017px){
+    .principal .pesquisa input{
+        top: 2%;
+    }
+    .principal .pesquisa i{
+        top: 2.5%;
+    }
+}
+@media screen and (max-height:1800px){
+    .principal .pesquisa input{
+        top: 1%;
+    }
+    .principal .pesquisa i{
+        top: 1.5%;
+    }
+}
+
 @media screen and (max-width: 1300px){
     .secao-livros .imagens-destaques img, .imagens-destaques1 img{
         width: 100px;
